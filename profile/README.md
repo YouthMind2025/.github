@@ -13,6 +13,19 @@
   <strong>Private beta</strong> &nbsp;·&nbsp; <strong>Built for iOS</strong>
 </p>
 
+## Launch film
+
+<p align="center">
+  <a href="assets/youthmind-fine-take-47-30s.mp4">
+    <img src="assets/youthmind-launch-film-poster.jpg" alt="Watch Fine. Take 47. — the Youniverse launch film" width="420">
+  </a>
+</p>
+
+<p align="center">
+  <strong><a href="assets/youthmind-fine-take-47-30s.mp4">Watch “Fine. Take 47.”</a></strong><br>
+  <sub>30 seconds · sound on · private-beta campaign film</sub>
+</p>
+
 ## The product
 
 Youniverse brings together an anonymous, emotion-aware community and **Aura**,

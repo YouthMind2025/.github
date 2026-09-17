@@ -1,98 +1,112 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.png" alt="YouthMind — Youniverse" width="760">
+</p>
 
-<!-- Animated Typing Header with wave effect -->
-<a href="https://github.com/YouthMind2025">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=false&width=650&height=80&lines=%F0%9F%A7%A0+YouthMind+2025" alt="YouthMind 2025" />
-</a>
+<h1 align="center">Youniverse by YouthMind</h1>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=2000&pause=500&color=9CA3AF&center=true&vCenter=true&width=450&lines=Revolutionizing+Youth+Mental+Health;Secure.+Anonymous.+Empathetic." alt="Tagline" />
+<p align="center">
+  <strong>A calmer place to share, reflect, and feel understood.</strong><br>
+  An iOS community and AI companion designed for everyday emotional support.
+</p>
 
-<br/>
+<p align="center">
+  <a href="https://github.com/YouthMind2025/YouthMind_main"><strong>Engineering repository</strong></a>
+  &nbsp;·&nbsp;
+  <strong>Private beta</strong>
+</p>
 
-<!-- Compact Hero Banner -->
-<img src="https://raw.githubusercontent.com/YouthMind2025/.github/main/profile/assets/banner.png?v=5" alt="YouthMind Banner" width="45%"/>
+## The product
 
-<br/><br/>
+Youniverse brings together an anonymous, emotion-aware community and **Aura**,
+an AI companion built for thoughtful, ongoing conversations. People can share
+what is on their mind, discover experiences that resonate, save meaningful
+posts, and return to conversations with continuity.
 
-<!-- Animated Status Badges -->
-<a href="https://github.com/YouthMind2025"><img src="https://img.shields.io/badge/🔥_Status-Active-22c55e?style=for-the-badge&labelColor=1f2937" alt="Active"/></a>
-<a href="https://github.com/orgs/YouthMind2025/people"><img src="https://img.shields.io/badge/👥_Team-8_Engineers-8b5cf6?style=for-the-badge&labelColor=1f2937" alt="Team"/></a>
-<a href="https://github.com/YouthMind2025"><img src="https://img.shields.io/badge/📱_iOS-|_Backend_|_AI-f97316?style=for-the-badge&labelColor=1f2937" alt="Platform"/></a>
+It is designed for general wellbeing and peer connection. It is **not** a
+medical device, diagnostic product, or replacement for emergency or
+professional care.
 
-<br/>
+## Inside Youniverse
 
-<sub>🛡️ Privacy First · 💬 Anonymous Sharing · 🤖 AI Emotional Support</sub>
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="assets/app-feed.jpeg" alt="Youniverse community feed" width="230"><br>
+      <strong>Discover</strong><br>
+      <sub>A varied, emotion-aware community feed.</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="assets/app-aura-history.jpeg" alt="Aura conversation history" width="230"><br>
+      <strong>Talk with Aura</strong><br>
+      <sub>Streaming conversations with clear history and continuity.</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="assets/app-activity.jpeg" alt="Youniverse resonance activity" width="230"><br>
+      <strong>Feel resonance</strong><br>
+      <sub>Supportive interactions without public popularity pressure.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center">
+      <img src="assets/app-profile.jpeg" alt="Youniverse personal profile" width="230"><br>
+      <strong>Reflect</strong><br>
+      <sub>A personal space for saved moments and evolving insights.</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="assets/app-saved.jpeg" alt="Youniverse saved posts" width="230"><br>
+      <strong>Keep what matters</strong><br>
+      <sub>Return to posts that helped, inspired, or felt familiar.</sub>
+    </td>
+    <td width="33%" valign="middle">
+      <h3>One connected experience</h3>
+      <p>
+        Community signals improve discovery, conversations remain durable,
+        and privacy and consent stay visible throughout the product.
+      </p>
+    </td>
+  </tr>
+</table>
 
----
+<p align="center"><sub>Captured from a synthetic Staging QA account. No real user data is shown.</sub></p>
 
-</div>
+## What we are building
 
-## 🎯 Mission
+| Experience | Purpose |
+| --- | --- |
+| **Anonymous community** | Share honestly and discover experiences across a range of emotions. |
+| **Aura AI companion** | Receive responsive, streamed conversation with opt-in cross-chat memory. |
+| **Personal reflection** | Revisit saved posts, conversations, emotional themes, and interaction history. |
+| **Responsible recommendations** | Combine relevance, diversity, freshness, safety, and explicit negative feedback. |
+| **Safety operations** | Support reporting, blocking, moderation queues, crisis boundaries, and human escalation. |
 
-**YouthMind** provides a **safe space** for young people to share thoughts, seek support, and connect with peers—guided by an empathetic AI companion called **PsyArg**.
+## Built as a complete system
 
----
+```text
+iOS / SwiftUI
+      │ HTTPS + streaming
+Spring Boot API
+      ├── PostgreSQL · durable product data
+      ├── Redis      · caching and coordination
+      ├── Qdrant     · opt-in semantic retrieval
+      ├── AI service · Aura responses and analysis
+      └── Admin      · moderation and operations
+```
 
-<details>
-<summary><b>🏗️ System Architecture</b> (click to expand)</summary>
-<br/>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/YouthMind2025/.github/main/profile/assets/architecture.png?v=5" alt="System Architecture" width="45%"/>
-</div>
-</details>
+The platform includes the iOS experience, authenticated APIs, recommendation
+pipeline, durable conversations, semantic memory, moderation tooling,
+observability, infrastructure definitions, and reproducible test suites.
 
-<details>
-<summary><b>🗺️ Product Roadmap</b> (click to expand)</summary>
-<br/>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/YouthMind2025/.github/main/profile/assets/roadmap.png?v=5" alt="Product Roadmap" width="45%"/>
-</div>
-</details>
+## Current status
 
----
+Youniverse is in **private beta and production-hardening**. We are validating
+real user journeys, recommendation quality, AI reliability, privacy controls,
+moderation operations, recovery procedures, and regional launch requirements
+before describing it as publicly production-ready.
 
-## 🛠️ Tech Stack
+<p align="center">
+  <strong>SwiftUI · Spring Boot · PostgreSQL · Redis · Qdrant</strong>
+</p>
 
-<div align="center">
-
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![DeepSeek](https://img.shields.io/badge/DeepSeek_AI-4A90E2?style=for-the-badge&logo=openai&logoColor=white)
-
-</div>
-
----
-
-<div align="center">
-
-### 👨‍💻 The Team
-
-| Role | Name | Focus |
-|:---:|:---|:---|
-| ![Lead](https://img.shields.io/badge/Project_Lead-8b5cf6?style=flat-square) | **Kevin** | Full Stack, Research |
-| ![PM](https://img.shields.io/badge/Project_Manager-f97316?style=flat-square) | **Junayd** | Backend |
-| ![Backend](https://img.shields.io/badge/Backend-6366f1?style=flat-square) | **Mustafo** | Backend Specialist |
-| ![Frontend](https://img.shields.io/badge/Frontend-3b82f6?style=flat-square) | **Dawei** | iOS, SwiftUI |
-| ![Frontend](https://img.shields.io/badge/Frontend-3b82f6?style=flat-square) | **Youssef** | iOS, UI/UX |
-| ![Full Stack](https://img.shields.io/badge/Full_Stack-22c55e?style=flat-square) | **Alex** | End-to-End |
-| ![Database](https://img.shields.io/badge/Database-ef4444?style=flat-square) | **Ahmed** | PostgreSQL, Data Design |
-| ![Design Lead](https://img.shields.io/badge/Design_Lead-ec4899?style=flat-square) | **Andy** | UI Design, QA |
-
-</div>
-
----
-
-<div align="center">
-
-### 🔗 Explore
-
-[![Main Repo](https://img.shields.io/badge/📦_Main_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YouthMind2025/YouthMind_main)
-[![iOS App](https://img.shields.io/badge/📱_iOS_App-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/YouthMind2025/YouthMind)
-
-<br/>
-
-<sub>© 2025 YouthMind · Built with ❤️ for mental health</sub>
-
-</div>
+<p align="center">
+  <sub>© 2026 YouthMind · Technology for more human connection.</sub>
+</p>

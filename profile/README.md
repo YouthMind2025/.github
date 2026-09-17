@@ -12,7 +12,13 @@
 ## Launch film
 
 <p align="center">
-  <strong><a href="https://youthmind2025.github.io/.github/">▶ Watch “Fine. Take 47.” — the 30-second Youniverse launch film</a></strong><br>
+  <a href="https://youthmind2025.github.io/.github/">
+    <img src="assets/youthmind-launch-preview.gif" alt="Animated preview of the Youniverse launch film" width="360">
+  </a>
+</p>
+
+<p align="center">
+  <strong><a href="https://youthmind2025.github.io/.github/">▶ Watch “Fine. Take 47.” — the full Youniverse launch film</a></strong><br>
   <sub>30 seconds · sound on · private-beta campaign film</sub>
 </p>
 

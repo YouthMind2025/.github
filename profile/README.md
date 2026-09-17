@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/banner.png" alt="YouthMind — Youniverse" width="760">
-</p>
-
 <h1 align="center">Youniverse by YouthMind</h1>
 
 <p align="center">
@@ -11,6 +7,13 @@
 
 <p align="center">
   <strong>Private beta</strong> &nbsp;·&nbsp; <strong>Built for iOS</strong>
+</p>
+
+## Launch film
+
+<p align="center">
+  <strong><a href="assets/youthmind-fine-take-47-30s.mp4">▶ Watch “Fine. Take 47.” — the 30-second Youniverse launch film</a></strong><br>
+  <sub>30 seconds · sound on · private-beta campaign film</sub>
 </p>
 
 ## The product

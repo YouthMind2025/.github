@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/banner.png" alt="YouthMind — Youniverse" width="760">
-</p>
-
 <h1 align="center">Youniverse by YouthMind</h1>
 
 <p align="center">

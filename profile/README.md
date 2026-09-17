@@ -10,9 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YouthMind2025/YouthMind_main"><strong>Engineering repository</strong></a>
-  &nbsp;·&nbsp;
-  <strong>Private beta</strong>
+  <strong>Private beta</strong> &nbsp;·&nbsp; <strong>Built for iOS</strong>
 </p>
 
 ## The product
@@ -57,12 +55,10 @@ professional care.
       <strong>Keep what matters</strong><br>
       <sub>Return to posts that helped, inspired, or felt familiar.</sub>
     </td>
-    <td width="33%" valign="middle">
-      <h3>One connected experience</h3>
-      <p>
-        Community signals improve discovery, conversations remain durable,
-        and privacy and consent stay visible throughout the product.
-      </p>
+    <td width="33%" align="center">
+      <img src="assets/app-aura-home.jpeg" alt="Aura AI companion home" width="230"><br>
+      <strong>Continue naturally</strong><br>
+      <sub>Return to recent conversations or begin somewhere new.</sub>
     </td>
   </tr>
 </table>

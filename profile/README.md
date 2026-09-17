@@ -1,117 +1,108 @@
-<h1 align="center">Youniverse by YouthMind</h1>
+<div align="center">
 
-<p align="center">
-  <strong>A calmer place to share, reflect, and feel understood.</strong><br>
-  An iOS community and AI companion designed for everyday emotional support.
-</p>
+# Youniverse by YouthMind
 
-<p align="center">
-  <strong>Private beta</strong> &nbsp;·&nbsp; <strong>Built for iOS</strong>
-</p>
+### A calmer place to share, reflect, and feel understood.
+
+An iOS community and AI companion designed for everyday emotional support.
+
+**Private beta** · **Built for iOS** · **Production hardening in progress**
+
+[Product](#the-product) · [Experience](#inside-youniverse) · [Engineering](#built-as-a-complete-system) · [Status](#current-status)
+
+</div>
+
+---
 
 ## Launch film
 
 <p align="center">
   <a href="https://youthmind2025.github.io/.github/">
-    <img src="assets/youthmind-launch-preview.gif" alt="Animated preview of the Youniverse launch film" width="360">
+    <img src="assets/youthmind-launch-preview.gif" alt="Animated preview of the Youniverse launch film" width="420">
   </a>
 </p>
 
 <p align="center">
-  <strong><a href="https://youthmind2025.github.io/.github/">▶ Watch “Fine. Take 47.” — the full Youniverse launch film</a></strong><br>
+  <strong><a href="https://youthmind2025.github.io/.github/">▶ Watch “Fine. Take 47.”</a></strong><br>
   <sub>30 seconds · sound on · private-beta campaign film</sub>
 </p>
 
 ## The product
 
-Youniverse brings together an anonymous, emotion-aware community and **Aura**,
-an AI companion built for thoughtful, ongoing conversations. People can share
-what is on their mind, discover experiences that resonate, save meaningful
-posts, and return to conversations with continuity.
+Youniverse combines an anonymous, emotion-aware community with **Aura**, an AI
+companion for thoughtful, ongoing conversations. It is designed around four
+simple ideas:
 
-It is designed for general wellbeing and peer connection. It is **not** a
-medical device, diagnostic product, or replacement for emergency or
-professional care.
+| Share | Discover | Talk | Reflect |
+| :---: | :---: | :---: | :---: |
+| Express what is on your mind without public popularity pressure. | Find experiences across a genuine range of emotions. | Continue streamed conversations with clear consent and history. | Revisit saved moments, themes, and personal activity. |
+
+> [!IMPORTANT]
+> Youniverse supports general wellbeing and peer connection. It is not a medical
+> device, diagnostic product, emergency service, or replacement for professional care.
 
 ## Inside Youniverse
 
 <table>
   <tr>
-    <td width="33%" align="center">
-      <img src="assets/app-feed.jpeg" alt="Youniverse community feed" width="230"><br>
-      <strong>Discover</strong><br>
-      <sub>A varied, emotion-aware community feed.</sub>
-    </td>
-    <td width="33%" align="center">
-      <img src="assets/app-aura-history.jpeg" alt="Aura conversation history" width="230"><br>
-      <strong>Talk with Aura</strong><br>
-      <sub>Streaming conversations with clear history and continuity.</sub>
-    </td>
-    <td width="33%" align="center">
-      <img src="assets/app-activity.jpeg" alt="Youniverse resonance activity" width="230"><br>
-      <strong>Feel resonance</strong><br>
-      <sub>Supportive interactions without public popularity pressure.</sub>
-    </td>
+    <td width="33%" align="center"><img src="assets/app-feed.jpeg" alt="Youniverse community feed" width="230"><br><strong>Emotion-aware discovery</strong><br><sub>A varied feed shaped by relevance, freshness, safety, and diversity.</sub></td>
+    <td width="33%" align="center"><img src="assets/app-aura-home.jpeg" alt="Aura AI companion home" width="230"><br><strong>Aura conversations</strong><br><sub>Streaming chat with visible history and user-controlled memory.</sub></td>
+    <td width="33%" align="center"><img src="assets/app-activity.jpeg" alt="Youniverse resonance activity" width="230"><br><strong>Human resonance</strong><br><sub>Supportive activity without a public popularity scorecard.</sub></td>
   </tr>
   <tr>
-    <td width="33%" align="center">
-      <img src="assets/app-profile.jpeg" alt="Youniverse personal profile" width="230"><br>
-      <strong>Reflect</strong><br>
-      <sub>A personal space for saved moments and evolving insights.</sub>
-    </td>
-    <td width="33%" align="center">
-      <img src="assets/app-saved.jpeg" alt="Youniverse saved posts" width="230"><br>
-      <strong>Keep what matters</strong><br>
-      <sub>Return to posts that helped, inspired, or felt familiar.</sub>
-    </td>
-    <td width="33%" align="center">
-      <img src="assets/app-aura-home.jpeg" alt="Aura AI companion home" width="230"><br>
-      <strong>Continue naturally</strong><br>
-      <sub>Return to recent conversations or begin somewhere new.</sub>
-    </td>
+    <td width="33%" align="center"><img src="assets/app-profile.jpeg" alt="Youniverse personal profile" width="230"><br><strong>Personal reflection</strong><br><sub>Activity-backed themes and evolving, non-clinical reflections.</sub></td>
+    <td width="33%" align="center"><img src="assets/app-saved.jpeg" alt="Youniverse saved posts" width="230"><br><strong>Keep what matters</strong><br><sub>Return to posts that helped, inspired, or felt familiar.</sub></td>
+    <td width="33%" align="center"><img src="assets/app-aura-history.jpeg" alt="Aura conversation history" width="230"><br><strong>Continue naturally</strong><br><sub>Conversation summaries make the right thread easy to find.</sub></td>
   </tr>
 </table>
 
-<p align="center"><sub>Captured from a synthetic Staging QA account. No real user data is shown.</sub></p>
-
-## What we are building
-
-| Experience | Purpose |
-| --- | --- |
-| **Anonymous community** | Share honestly and discover experiences across a range of emotions. |
-| **Aura AI companion** | Receive responsive, streamed conversation with opt-in cross-chat memory. |
-| **Personal reflection** | Revisit saved posts, conversations, emotional themes, and interaction history. |
-| **Responsible recommendations** | Combine relevance, diversity, freshness, safety, and explicit negative feedback. |
-| **Safety operations** | Support reporting, blocking, moderation queues, crisis boundaries, and human escalation. |
+<p align="center"><sub>Real simulator captures from a synthetic Staging QA account. No real user data is shown.</sub></p>
 
 ## Built as a complete system
 
-```text
-iOS / SwiftUI
-      │ HTTPS + streaming
-Spring Boot API
-      ├── PostgreSQL · durable product data
-      ├── Redis      · caching and coordination
-      ├── Qdrant     · opt-in semantic retrieval
-      ├── AI service · Aura responses and analysis
-      └── Admin      · moderation and operations
+```mermaid
+flowchart LR
+    IOS[iOS · SwiftUI] -->|HTTPS + SSE| API[Spring Boot API]
+    OPS[Operations console] --> API
+    API --> PG[(PostgreSQL)]
+    API --> REDIS[(Redis)]
+    API --> QDRANT[(Qdrant)]
+    API --> AI[AI provider]
+    API --> SAFETY[Moderation + safety operations]
 ```
 
-The platform includes the iOS experience, authenticated APIs, recommendation
-pipeline, durable conversations, semantic memory, moderation tooling,
-observability, infrastructure definitions, and reproducible test suites.
+| Layer | Responsibility |
+| --- | --- |
+| **iOS experience** | Product flows, secure sessions, resilient networking, and offline-aware state. |
+| **Product API** | Authentication, community, recommendation, chat, memory, privacy, and moderation. |
+| **Data systems** | PostgreSQL as system of record, Redis for coordination, and opt-in Qdrant retrieval. |
+| **Quality system** | Contract tests, UI journeys, load scenarios, observability, recovery, and release gates. |
+
+Our recommendation pipeline separates candidate sourcing, eligibility, scoring,
+reranking, hydration, and exposure logging. Aura combines durable conversations,
+streaming responses, opt-in semantic recall, consent controls, and explicit
+safety boundaries.
+
+## How we work
+
+- **Privacy before personalization** — consent, minimization, deletion, and clear data boundaries.
+- **Evidence before claims** — local tests, CI, staging, recovery, and production are kept distinct.
+- **Safety by design** — reporting, blocking, moderation, crisis boundaries, and human escalation.
+- **Calm product craft** — expressive interaction without engagement pressure or clinical overclaiming.
+
+Organization-wide contribution, security, and support guidance lives in this
+repository. Product source remains private while beta and launch gates are completed.
 
 ## Current status
 
-Youniverse is in **private beta and production-hardening**. We are validating
+Youniverse is in **private beta and production hardening**. We are validating
 real user journeys, recommendation quality, AI reliability, privacy controls,
-moderation operations, recovery procedures, and regional launch requirements
-before describing it as publicly production-ready.
+moderation operations, recovery procedures, and regional launch requirements.
 
-<p align="center">
-  <strong>SwiftUI · Spring Boot · PostgreSQL · Redis · Qdrant</strong>
-</p>
+Public launch is gated on accountable legal, clinical-safety, privacy,
+credential-rotation, backup-recovery, and app-store approvals. Passing tests or
+a healthy deployment is not presented as proof that those external gates are complete.
 
-<p align="center">
-  <sub>© 2026 YouthMind · Technology for more human connection.</sub>
-</p>
+---
+
+<p align="center"><strong>SwiftUI · Spring Boot · PostgreSQL · Redis · Qdrant</strong><br><sub>© 2026 YouthMind · Technology for more human connection.</sub></p>
